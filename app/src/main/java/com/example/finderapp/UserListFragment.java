@@ -406,12 +406,7 @@ public class UserListFragment extends Fragment implements OnMapReadyCallback, Go
         googleMap = map;
         addMapMarkers();
 
-        /*googleMap.setOnPolylineClickListener(new GoogleMap.OnPolylineClickListener() {
-            @Override
-            public void onPolylineClick(Polyline polyline) {
 
-            }
-        });*/
 
         googleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
             @Override
