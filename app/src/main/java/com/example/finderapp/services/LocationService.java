@@ -23,10 +23,9 @@ import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.core.app.NotificationCompat;
 
-import com.example.finderapp.R;
-import com.example.finderapp.User;
-import com.example.finderapp.UserClient;
-import com.example.finderapp.UserLocation;
+import com.example.finderapp.Models.User;
+import com.example.finderapp.Models.UserClient;
+import com.example.finderapp.Models.UserLocation;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationCallback;
 import com.google.android.gms.location.LocationRequest;

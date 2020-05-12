@@ -1,4 +1,4 @@
-package com.example.finderapp;
+package com.example.finderapp.Fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,12 +12,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.finderapp.Adapters.ImageListRecyclerAdapter;
+import com.example.finderapp.R;
 import com.example.finderapp.util.IProfile;
 
 import java.util.ArrayList;
 
 
-public class ImageListFragment extends Fragment implements ImageListRecyclerAdapter.ImageListRecyclerClickListener{
+public class ImageListFragment extends Fragment implements ImageListRecyclerAdapter.ImageListRecyclerClickListener {
 
     private static final String TAG = "ImageListFragment";
     private static final int NUM_COLUMNS = 2;

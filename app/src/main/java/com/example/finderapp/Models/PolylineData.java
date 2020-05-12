@@ -1,4 +1,4 @@
-package com.example.finderapp;
+package com.example.finderapp.Models;
 
 import com.google.android.gms.maps.model.Polyline;
 import com.google.maps.model.DirectionsLeg;

@@ -1,5 +1,6 @@
-package com.example.finderapp;
+package com.example.finderapp.Models;
 
+import com.example.finderapp.Models.User;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.maps.android.clustering.ClusterItem;
 

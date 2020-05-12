@@ -1,4 +1,4 @@
-package com.example.finderapp;
+package com.example.finderapp.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,6 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.finderapp.Models.ChatMessage;
+import com.example.finderapp.Models.User;
+import com.example.finderapp.R;
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.ArrayList;

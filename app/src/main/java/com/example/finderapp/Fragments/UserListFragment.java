@@ -1,4 +1,4 @@
-package com.example.finderapp;
+package com.example.finderapp.Fragments;
 
 import android.animation.ObjectAnimator;
 import android.content.DialogInterface;
@@ -9,7 +9,6 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -24,6 +23,12 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import com.example.finderapp.Models.ClusterMarker;
+import com.example.finderapp.Models.User;
+import com.example.finderapp.Models.PolylineData;
+import com.example.finderapp.R;
+import com.example.finderapp.Models.UserLocation;
+import com.example.finderapp.Adapters.UserRecyclerAdapter;
 import com.example.finderapp.util.MyClusterManagerRenderer;
 import com.example.finderapp.util.ViewWeightAnimationWrapper;
 import com.google.android.gms.maps.CameraUpdateFactory;

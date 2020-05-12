@@ -1,4 +1,4 @@
-package com.example.finderapp;
+package com.example.finderapp.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,10 @@ import android.view.View;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.example.finderapp.Fragments.ImageListFragment;
+import com.example.finderapp.R;
+import com.example.finderapp.Models.User;
+import com.example.finderapp.Models.UserClient;
 import com.example.finderapp.util.IProfile;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;

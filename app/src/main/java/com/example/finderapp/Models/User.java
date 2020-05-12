@@ -1,4 +1,4 @@
-package com.example.finderapp;
+package com.example.finderapp.Models;
 
 import android.os.Parcel;
 import android.os.Parcelable;

@@ -1,4 +1,4 @@
-package com.example.finderapp;
+package com.example.finderapp.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,6 +10,10 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.finderapp.Activities.ChatroomActivity;
+import com.example.finderapp.Models.Chatroom;
+import com.example.finderapp.R;
 
 import java.util.ArrayList;
 

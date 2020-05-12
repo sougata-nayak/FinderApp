@@ -1,4 +1,4 @@
-package com.example.finderapp;
+package com.example.finderapp.Models;
 
 import com.google.firebase.firestore.ServerTimestamp;
 

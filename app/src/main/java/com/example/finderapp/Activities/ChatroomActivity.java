@@ -1,4 +1,4 @@
-package com.example.finderapp;
+package com.example.finderapp.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -7,25 +7,28 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.util.ArraySet;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.EditText;
-import android.widget.Toast;
 
-import com.google.android.gms.maps.GoogleMap;
+import com.example.finderapp.Models.ChatMessage;
+import com.example.finderapp.Adapters.ChatMessageRecyclerAdapter;
+import com.example.finderapp.Models.Chatroom;
+import com.example.finderapp.R;
+import com.example.finderapp.Models.User;
+import com.example.finderapp.Models.UserClient;
+import com.example.finderapp.Fragments.UserListFragment;
+import com.example.finderapp.Models.UserLocation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentReference;
-import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;

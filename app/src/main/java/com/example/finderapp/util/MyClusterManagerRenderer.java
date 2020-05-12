@@ -1,15 +1,11 @@
 package com.example.finderapp.util;
 
 import android.content.Context;
-import android.content.DialogInterface;
 import android.graphics.Bitmap;
-import android.util.Log;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import androidx.appcompat.app.AlertDialog;
-
-import com.example.finderapp.ClusterMarker;
+import com.example.finderapp.Models.ClusterMarker;
 import com.example.finderapp.R;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;

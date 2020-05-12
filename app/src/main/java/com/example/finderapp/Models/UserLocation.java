@@ -1,9 +1,7 @@
-package com.example.finderapp;
+package com.example.finderapp.Models;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-
-import androidx.annotation.NonNull;
 
 import com.google.firebase.Timestamp;
 import com.google.firebase.firestore.GeoPoint;

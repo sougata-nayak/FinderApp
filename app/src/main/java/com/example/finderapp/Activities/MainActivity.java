@@ -1,4 +1,4 @@
-package com.example.finderapp;
+package com.example.finderapp.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,7 +17,6 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationManager;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.InputType;
 import android.util.Log;
@@ -28,6 +27,12 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.example.finderapp.Models.Chatroom;
+import com.example.finderapp.Adapters.ChatroomRecyclerAdapter;
+import com.example.finderapp.R;
+import com.example.finderapp.Models.User;
+import com.example.finderapp.Models.UserClient;
+import com.example.finderapp.Models.UserLocation;
 import com.example.finderapp.services.LocationService;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
