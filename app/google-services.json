@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "838359363119",
+    "firebase_url": "https://finderapp-11f56.firebaseio.com",
+    "project_id": "finderapp-11f56",
+    "storage_bucket": "finderapp-11f56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838359363119:android:4446911f449e2c112e60da",
+        "android_client_info": {
+          "package_name": "com.example.finderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838359363119-0sap7nme980kobo6c1d3a07ct1b4dcri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB2eZgS6ix5u5NFGHXeN1_1HBiGXqO-zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "838359363119-0sap7nme980kobo6c1d3a07ct1b4dcri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

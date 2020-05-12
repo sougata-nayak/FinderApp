@@ -1,0 +1,2 @@
+rootProject.name='FinderApp'
+include ':app'
